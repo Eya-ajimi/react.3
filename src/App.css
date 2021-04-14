@@ -1,0 +1,79 @@
+body {
+  font-family: 'Rasa', serif;
+  font-weight: 300;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  font-weight: 100;
+  /*text-transform: uppercase;*/
+}
+
+
+button {
+  background: none;
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.text-important {
+  color: lightpink;
+  font-size: 45px;
+}
+
+/* Header */
+
+header {
+  z-index: 1;
+  display: flex;
+  position: sticky;
+  top: 0;
+  background: rgb(189, 175, 175);
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+/*header > ul */
+.navmenu {
+  list-style: none;
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+}
+
+.navmenu a:hover {
+  color: lightpink;
+  text-decoration: underline;
+}
+.about-me {
+  text-align: center;
+}
+label.full {
+ justify-content: center; 
+  display: block;
+  margin-left: auto;
+  margin-right: 300px
+  
+}
+.bt {
+ justify-content: center;
+ background-color: rgb(189, 175, 175)
+  
+}
